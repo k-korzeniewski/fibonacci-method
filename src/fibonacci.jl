@@ -1,5 +1,4 @@
 module fibonacci
-using Printf
 export fibonacci_minim
 
 
@@ -44,7 +43,6 @@ function fibonacci_minim(f,a,b,tol=0.1)
             x2 = a + ((fibonacci_num(n-1) * (b-a))/fibonacci_num(n))
             xres = x2
         end #if
-        @printf("x1:%f - x2:%f \n",x1,x2)
         if abs(x2-x1) <= tol || n <= 2
             yres = f(xres)
             result = (xres,yres) # result as tuple
