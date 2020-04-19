@@ -1,0 +1,4 @@
+name = "fibonacci"
+uuid = "5ca3820d-a4ba-4b2e-9b50-06fbad36a6f2"
+authors = ["kamil <kamilkorzeniewski13@gmail.com>"]
+version = "0.1.0"
